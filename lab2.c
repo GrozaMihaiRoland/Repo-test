@@ -3,7 +3,7 @@
 
 int function(int x){
 	x=x-2;
-    if (x>2)
+    if (x>2 && x<=30)
         x=function(x);
 	return x;
 }
